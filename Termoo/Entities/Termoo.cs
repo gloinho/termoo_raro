@@ -20,7 +20,7 @@ public class Termoo
     public List<string> Play(string word)
     {
         List<string> responses = Response.WordCheck(Word, word.ToLower(), Count);
-        if (!responses.Contains("Invalid word"))
+        if (!responses.Contains("Invalid Word"))
         {
             Count++;
         }
