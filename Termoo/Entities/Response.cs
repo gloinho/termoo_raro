@@ -17,7 +17,8 @@ public class Response
             }
             else if (count == 4)
             {
-                Responses.Add($"You lost! The word was {word}");
+                Responses.Add($"You lost!");
+                Responses.Add($"The word was {word}");
             }
             else
             {
