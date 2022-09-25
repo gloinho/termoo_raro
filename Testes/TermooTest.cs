@@ -102,7 +102,7 @@ public class TermooTest
         game.Play("uuuuu");
         game.Play("uuuuu");
         List<string> actual = game.Play("uuuuu");
-        List<string> expected = new List<string> { "You lost! The word was venus" };
+        List<string> expected = new List<string> { "You lost!", "The word was venus" };
         CollectionAssert.AreEqual(expected, actual);
     }
 
